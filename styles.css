@@ -1,9 +1,6 @@
 :root {
-    --primary-clr: #F2CB05;
-    --secondary-clr: #F2CB05;
+    --primary-clr: #FFC529;
     --background-color: #fdfdfd;
-    --brown-color: #46413c;
-    --darkbrown-color: #8C2804;
     --accent-color: #F26B8F;
 }
 
@@ -77,7 +74,9 @@ li {
 
 .sub-header img {
     width: 540px;
-    height: auto;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 30px;
 }
 
 .content h2 {
@@ -100,11 +99,12 @@ li {
 }
 
 .information {
-    height: 400px;
+    height: 600px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: var(--brown-color);
+    background-color: var(--primary-clr);
     padding: 16px;
 }
 
@@ -137,7 +137,7 @@ li {
 .information p{
     margin-top: 20px;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;    
     text-justify: inter-word;
     font-weight: 300;
@@ -163,17 +163,13 @@ li {
 }
 
 .signUpPrompt {
-    height: 200px;
-    background-color: var(--brown-color);
+    height: 150px;
+    background-color: var(--primary-clr);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
-}
-
-.signUpWrapper {
-    background-color: var(--accent-color);
 }
 
 .signUpPrompt button {
@@ -187,6 +183,20 @@ li {
     font-weight: bold;
     color: white;
     margin-left: 30px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-clr);
+}
+
+.footer h3 {
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 
