@@ -2,7 +2,7 @@
     --primary-clr: #F2CB05;
     --secondary-clr: #F2CB05;
     --background-color: #fdfdfd;
-    --brown-color: #BF6B04;
+    --brown-color: #46413c;
     --darkbrown-color: #8C2804;
     --accent-color: #F26B8F;
 }
@@ -94,7 +94,101 @@ li {
     margin-top: 20px;
     color: black;
     font-size: 16px;
-    text-align: justify;
+    text-align: justify;    
     text-justify: inter-word;
     font-weight: 300;
 }
+
+.information {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--brown-color);
+    padding: 16px;
+}
+
+.cards {
+    align-self: stretch;
+    display: flex;
+    padding: 16px;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.information h2 {
+    color: white;
+    margin: 30px 0px;
+    font-size: 32px;
+}
+
+.information p{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: justify;    
+    text-justify: inter-word;
+    font-weight: 300;
+}
+
+.quoteHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 20px
+}
+
+.quoteHolder p {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0px 100px;
+}
+
+.quoteHolder .kaiwan {
+    align-self: flex-end;
+}
+
+.signUpPrompt {
+    height: 200px;
+    background-color: var(--brown-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.signUpWrapper {
+    background-color: var(--accent-color);
+}
+
+.signUpPrompt button {
+    border: none;
+    background-color: var(--accent-color);
+    cursor: pointer;
+    align-self: center;
+    padding: 15px 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-left: 30px;
+}
+
+
+
+
